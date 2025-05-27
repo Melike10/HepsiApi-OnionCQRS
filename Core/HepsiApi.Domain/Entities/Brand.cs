@@ -15,5 +15,6 @@ namespace HepsiApi.Domain.Entities
         }
 
         public required string Name { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }
