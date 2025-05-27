@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Application", "Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Domain", "Core\HepsiApi.Domain\HepsiApi.Domain.csproj", "{8664988F-F556-4EC9-BD82-B64BF70A62A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Infrastructure", "Infrastructure\Infrastructure\HepsiApi.Infrastructure.csproj", "{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Persistance", "Infrastructure\HepsiApi.Persistance\HepsiApi.Persistance.csproj", "{C5E34701-894F-48C6-B7C8-C81F389FA99C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.WebApi", "Prensantation\HepsiApi.WebApi\HepsiApi.WebApi.csproj", "{E0D64A4B-15C6-4FCA-B4F9-54980DF8069A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Infrastructure", "Infrastructure\HepsiApi.Infrastructure\HepsiApi.Infrastructure.csproj", "{8C778D28-2F50-4897-837A-2881A1CAB8A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{8664988F-F556-4EC9-BD82-B64BF70A62A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8664988F-F556-4EC9-BD82-B64BF70A62A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8664988F-F556-4EC9-BD82-B64BF70A62A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5E34701-894F-48C6-B7C8-C81F389FA99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5E34701-894F-48C6-B7C8-C81F389FA99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E34701-894F-48C6-B7C8-C81F389FA99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{E0D64A4B-15C6-4FCA-B4F9-54980DF8069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D64A4B-15C6-4FCA-B4F9-54980DF8069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D64A4B-15C6-4FCA-B4F9-54980DF8069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C778D28-2F50-4897-837A-2881A1CAB8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C778D28-2F50-4897-837A-2881A1CAB8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C778D28-2F50-4897-837A-2881A1CAB8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C778D28-2F50-4897-837A-2881A1CAB8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,9 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{19AE46F4-BE10-4543-A732-C35F7C5FE9B5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8664988F-F556-4EC9-BD82-B64BF70A62A2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{F83F6B2D-D93D-4E0D-99F6-608A6FB2B5D9} = {22E24B92-7918-4AF9-A366-DEBC2887F11D}
 		{C5E34701-894F-48C6-B7C8-C81F389FA99C} = {22E24B92-7918-4AF9-A366-DEBC2887F11D}
 		{E0D64A4B-15C6-4FCA-B4F9-54980DF8069A} = {12583D70-DB85-45E4-B02B-E43F9F062C84}
+		{8C778D28-2F50-4897-837A-2881A1CAB8A9} = {22E24B92-7918-4AF9-A366-DEBC2887F11D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A1490F6-FA4F-4560-80B6-93F9A2FE3D25}
