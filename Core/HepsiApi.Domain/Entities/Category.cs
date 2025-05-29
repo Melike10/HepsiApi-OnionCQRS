@@ -9,7 +9,11 @@ namespace HepsiApi.Domain.Entities
 {
    public class Category: EntityBase
     {
-      
+        public Category()
+        {
+            
+        }
+
         public Category(int parentId, string name, int priority)
         {
             ParentId = parentId;
